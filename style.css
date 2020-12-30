@@ -1,0 +1,203 @@
+/* ====================== */
+/* This code is designed by EmoN KhaN */
+/* facebook.com/emonkhan2020 */
+/* ====================== */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+}
+
+
+.fixedWidth{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* header part */
+header{
+    background-color: #3B5998;
+    padding-top: 15px;
+}
+.headerLeft{
+    float: left;
+    width: 55%;
+}
+.headerLeft a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.headerRight{
+    width: 45%;
+    float: right;
+}
+.singleInput{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+.singleInput label{
+    color: #fff;
+    font-size: 12px;
+    line-height: 16.1px;
+}
+.singleInput a{
+    color: #9CB4D8;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16.1px;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+.singleInput a:hover{
+    text-decoration: underline;
+}
+.logBtn {
+	background-color: #4267B2;
+	border: 1px solid #29487D;
+	color: #fff;
+	font-size: 14px;
+	padding: 2px 10px;
+	position: absolute;
+	top: 30px;
+}
+.logBtn:hover{
+    background-color: #365899;
+}
+
+/* content area */
+.content{
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(211,216,232,1) 60%);
+min-height: 582px;
+}
+.contentLeft{
+    width: 60%;
+    float: left;
+    padding-top: 40px;
+}
+.contentLeft p{
+    color: #0E385F;
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: bold;
+}
+.contentRight{
+    width: 40%;
+    float: left;
+    padding-top: 30px;
+}
+.contentRight h2{
+    font-size: 36px;
+    line-height: 48.2px;
+    color: #333333;
+    font-weight: bold;
+}
+.contentRight p{
+    font-size: 19px;
+    line-height: 25.5px;
+    color: #1D2129;
+}
+select{
+    border: 1px solid #CED4DA;
+    padding: 0 10px;
+}
+.toolTip {
+	width: 15px;
+	height: 15px;
+	background-color: #606770;
+	color: #E5E7F0;
+	display: inline-block;
+	border-radius: 50%;
+	padding-left: 4px;
+	line-height: 15px;
+	margin-left: 5px;
+	font-size: 15px;
+	margin-top: 4px;
+}
+.toolTip:hover{
+    color: #E5E7F0; 
+    text-decoration: none;
+}
+.gender input[type=radio]{
+    margin: 0 5px;
+}
+.gender span{
+    font-size: 18px;
+    line-height: 18px;
+    color: #1D2129;
+    margin-right: 5px;
+}
+
+.formText p{
+    font-size: 11px;
+    line-height: 14.7px;
+    color: #777777;
+}
+.formText a{
+    color: #385895;
+}
+
+.signBtn {
+	background-color: #5A8F46;
+	border: 1px solid #3B6E22;
+	padding: 5px 65px;
+	font-size: 19px;
+	line-height: 26.9px;
+	color: #fff;
+	margin-bottom: 25px;
+	border-radius: 4px;
+}
+.signBtn:hover{
+    background-color: #69A354;
+}
+
+.underSignUp p{
+    font-size: 13px;
+    line-height: 17.4px;
+    color: #666666;
+    font-weight: bold;
+}
+.underSignUp a{
+    color: #385895;
+}
+
+/* Footer Part */
+footer{
+    background-color: #fff;
+    min-height: 100px;
+}
+.footerTop{
+    border-bottom: 1px solid #DDDFE2;
+}
+footer p{
+    margin-top: 50px;
+    color: #737373;
+    font-size: 12px;
+    line-height: 16.1px;
+}
+footer a{
+    color: #385898;
+    display: inline-block;
+    margin: 0 6px;
+}
+.footerBtn {
+	background-color: #F5F6F7;
+	color: #686F7E;
+	font-size: 18px;
+	line-height: 18px;
+	border: 1px solid #CCD0D5;
+	padding: 0px 7px 2px;
+}
+.footerBottom p{
+    margin-top: 5px;
+    line-height: 22px;
+}
